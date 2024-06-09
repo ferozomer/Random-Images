@@ -1,0 +1,37 @@
+{
+  "name": "Telegram-Random-Image-Bot",
+  "version": "1.0.0",
+  "description": "A Telegram bot integrated with an Express web server to handle and serve images.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ferozomer/Telegram-Random-Image-Bot"
+  },
+  "keywords": [
+    "telegram",
+    "bot",
+    "express",
+    "image",
+    "server"
+  ],
+  "author": "Feroz Omer",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ferozomer/Telegram-Random-Image-Bot/issues"
+  },
+  "homepage": "https://github.com/ferozomer/Telegram-Random-Image-Bot#readme",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "crypto": "^1.0.1",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "telegraf": "^4.7.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
