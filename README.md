@@ -1,4 +1,4 @@
-# Telegram Random Image Bot
+# Random Image
 
 This project is a Telegram bot designed to handle images sent to a specific Telegram group. It downloads, stores, and serves images through an Express server. Additionally, it provides routes to fetch images and serve a random image from the stored collection.
 
